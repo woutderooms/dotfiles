@@ -7,4 +7,7 @@ command_exists() {
 echo "Mac config"
 source install/osx.sh
 
+echo "Brew + apps"
+source install/brew.sh
+
 echo "Done. Reload your terminal."
