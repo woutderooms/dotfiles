@@ -10,4 +10,10 @@ source install/osx.sh
 echo "Brew + apps"
 source install/brew.sh
 
+echo "Oh My Zsh"
+source install/ohMyZsh.sh
+
+echo "Setup projects folders"
+source install/projects.sh
+
 echo "Done. Reload your terminal."

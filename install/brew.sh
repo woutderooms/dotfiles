@@ -13,6 +13,10 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+# Install non-cask tools
+brew install zsh
+brew install Schniz/tap/fnm
+
 # Installs Casks
 brew tap homebrew/cask-cask
 
@@ -25,6 +29,7 @@ brew cask install gitkraken
 # Utility
 brew cask install 1password
 brew cask install dropbox
+brew cask install spectacle
 # Browsers
 brew cask install google-chrome
 # Communication
