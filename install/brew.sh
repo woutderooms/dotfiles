@@ -17,9 +17,6 @@ brew upgrade
 brew install zsh
 brew install Schniz/tap/fnm
 
-# Installs Casks
-brew tap homebrew/cask-cask
-
 ## Apps I use
 # Dev tools
 brew cask install iterm2

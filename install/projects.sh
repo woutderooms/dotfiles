@@ -34,4 +34,13 @@ read napoleonGamesGitEmail
 echo "[user]
 	email = $napoleonGamesGitEmail" > .gitconfig
 
+# Link conditional git configs
+echo '
+[includeIf "gitdir:~/projects/personal/"]
+	path = ~/projects/personal/.gitconfig
+[includeIf "gitdir:~/projects/work/websome/"]
+	path = ~/projects/work/websome/.gitconfig
+[includeIf "gitdir:~/projects/work/napoleon-games/"]
+	path = ~/projects/work/napoleon-games/.gitconfig' >> ~/.gitconfig
+
 cd ~

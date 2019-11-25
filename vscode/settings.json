@@ -1,0 +1,44 @@
+{
+  "javascript.validate.enable": false,
+  // Set the default
+  "editor.formatOnSave": false,
+  // Enable per-language
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "breadcrumbs.enabled": false,
+  "eslint.autoFixOnSave": true,
+  "editor.scrollBeyondLastLine": false,
+  "javascript.format.enable": false,
+  "window.zoomLevel": 0,
+  "javascript.suggestionActions.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "extensions.ignoreRecommendations": false,
+  "workbench.colorTheme": "Monokai",
+  "editor.fontSize": 12,
+  "workbench.startupEditor": "newUntitledFile",
+  "terminal.external.osxExec": "Iterm.app",
+  "terminal.integrated.fontFamily": "Noto Mono for Powerline",
+  "sync.gist": "f761d054dd393e3c0b73ca3e64c1f5ab",
+  "sync.forceDownload": false,
+  "sync.quietSync": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "window.nativeTabs": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.nativeFullScreen": false,
+  "window.restoreWindows": "all",
+  "window.title": "${rootName}",
+  "sync.autoDownload": true,
+  "sync.autoUpload": true
+}

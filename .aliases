@@ -1,0 +1,17 @@
+# Easy copy public ssh key
+alias pubkey="pbcopy < ~/.ssh/id_rsa.pub"
+
+# Go to projects folder
+alias p="cd ~/projects"
+alias pp="cd ~/projects/personal"
+alias pw="cd ~/projects/work"
+alias ws="cd ~/projects/work/websome"
+
+# Go to previous directory
+alias back="cd -"
+
+# Update all
+alias update="sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g;"
+
+# Source .zshrc, which updates all commands
+alias s="source ~/.zshrc"

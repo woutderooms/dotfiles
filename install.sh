@@ -16,4 +16,7 @@ source install/ohMyZsh.sh
 echo "Setup projects folders"
 source install/projects.sh
 
+echo "VS Code settings"
+source install/vscode.sh
+
 echo "Done. Reload your terminal."
