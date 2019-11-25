@@ -15,3 +15,6 @@ alias update="sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup
 
 # Source .zshrc, which updates all commands
 alias s="source ~/.zshrc"
+
+# Add dock spaces
+alias dockspacer="defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock"
