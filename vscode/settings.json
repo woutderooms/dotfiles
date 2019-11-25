@@ -23,9 +23,6 @@
   "workbench.startupEditor": "newUntitledFile",
   "terminal.external.osxExec": "Iterm.app",
   "terminal.integrated.fontFamily": "Noto Mono for Powerline",
-  "sync.gist": "f761d054dd393e3c0b73ca3e64c1f5ab",
-  "sync.forceDownload": false,
-  "sync.quietSync": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
