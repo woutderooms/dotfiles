@@ -1,41 +1,34 @@
 {
-  "javascript.validate.enable": false,
-  // Set the default
+  "breadcrumbs.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.fontSize": 12,
+  // Default
   "editor.formatOnSave": false,
   // Enable per-language
   "[javascript]": {
     "editor.formatOnSave": true
   },
-  "breadcrumbs.enabled": false,
-  "eslint.autoFixOnSave": true,
-  "editor.scrollBeyondLastLine": false,
-  "javascript.format.enable": false,
-  "window.zoomLevel": 0,
-  "javascript.suggestionActions.enabled": false,
-  "editor.renderWhitespace": "all",
   "editor.renderControlCharacters": false,
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "editor.acceptSuggestionOnCommitCharacter": false,
-  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.renderWhitespace": "all",
+  "editor.scrollBeyondLastLine": false,
+  "editor.tabSize": 2,
+  "eslint.autoFixOnSave": true,
   "extensions.ignoreRecommendations": false,
-  "workbench.colorTheme": "Monokai",
-  "editor.fontSize": 12,
-  "workbench.startupEditor": "newUntitledFile",
+  "javascript.format.enable": false,
+  "javascript.suggestionActions.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "javascript.validate.enable": false,
   "terminal.external.osxExec": "Iterm.app",
   "terminal.integrated.fontFamily": "Noto Mono for Powerline",
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "window.nativeTabs": true,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "window.nativeFullScreen": false,
+  "window.nativeTabs": true,
   "window.restoreWindows": "all",
   "window.title": "${rootName}",
-  "sync.autoDownload": true,
-  "sync.autoUpload": true
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Monokai",
+  "workbench.startupEditor": "newUntitledFile"
 }
