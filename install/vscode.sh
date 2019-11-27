@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 code --install-extension apollographql.vscode-apollo
 code --install-extension blzjns.vscode-raml
 code --install-extension brenosolutions.sqlformatter
