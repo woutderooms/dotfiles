@@ -16,6 +16,7 @@ brew upgrade
 # Install non-cask tools
 brew install zsh
 brew install tig
+brew install dockutil
 brew install Schniz/tap/fnm
 
 ## Apps I use
