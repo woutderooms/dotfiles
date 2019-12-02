@@ -6,7 +6,6 @@ mkdir -p ~/projects/personal ~/projects/work/websome ~/projects/work/napoleon-ga
 echo 'What is your git name (first name + last name)?'
 IFS=
 read gitName
-echo $gitName
 git config --global --replace-all user.name $gitName
 echo 'What is your default git email?'
 read defaultGitEmail
