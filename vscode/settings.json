@@ -23,7 +23,6 @@
   "javascript.updateImportsOnFileMove.enabled": "never",
   "javascript.validate.enable": false,
   "terminal.external.osxExec": "Iterm.app",
-  "terminal.integrated.fontFamily": "Noto Mono for Powerline",
   "window.nativeFullScreen": false,
   "window.nativeTabs": true,
   "window.restoreWindows": "all",

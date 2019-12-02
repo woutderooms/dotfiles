@@ -67,6 +67,9 @@ defaults write com.apple.finder ShowPathbar -bool true
 echo "Show Status bar in Finder"
 defaults write com.apple.finder ShowStatusBar -bool true
 
+echo "Disable rearranging spaces based on use"
+defaults write com.apple.dock mru-spaces -bool false
+
 # echo "Expand print panel by default"
 # defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
 
@@ -78,6 +81,9 @@ defaults write com.apple.screencapture disable-shadow -bool true
 
 # echo "Enable highlight hover effect for the grid view of a stack (Dock)"
 # defaults write com.apple.dock mouse-over-hilte-stack -bool true
+
+echo "Disable recents in Dock"
+defaults write com.apple.dock show-recents -bool false
 
 # echo "Enable spring loading for all Dock items"
 # defaults write enable-spring-load-actions-on-all-items -bool true
