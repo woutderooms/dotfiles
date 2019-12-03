@@ -256,6 +256,18 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 # Disable Resume system-wide
 # defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false
 
+# Finder default view
+# Four-letter codes for the other view modes: `icnv` (icon), `Nlsv` (list), `Flwv` (cover flow)
+defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
+defaults write com.apple.finder SearchRecentsSavedViewStyle -string "clmv"
+
+defaults write com.apple.systemuiserver menuExtras -array \
+        "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" \
+        "/System/Library/CoreServices/Menu Extras/AirPort.menu" \
+        "/System/Library/CoreServices/Menu Extras/Battery.menu" \
+        "/System/Library/CoreServices/Menu Extras/Displays.menu" \
+        "/System/Library/CoreServices/Menu Extras/Volume.menu"
+
 #Disable the “reopen windows when logging back in” option
 # This works, although the checkbox will still appear to be checked.
 defaults write com.apple.loginwindow TALLogoutSavesState -bool false

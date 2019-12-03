@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+#Minimize windows into their application’s icon
+defaults write com.apple.dock minimize-to-application -bool true
+
 #Disable recents in Dock
 defaults write com.apple.dock show-recents -bool false
 
