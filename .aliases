@@ -6,6 +6,7 @@ alias p="cd ~/projects"
 alias pp="cd ~/projects/personal"
 alias pw="cd ~/projects/work"
 alias ws="cd ~/projects/work/websome"
+alias ng="cd ~/projects/work/napoleon-games"
 
 # Go to previous directory
 alias back="cd -"
