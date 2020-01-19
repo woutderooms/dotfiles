@@ -7,9 +7,6 @@ command_exists() {
 echo "Brew + apps"
 source install/brew.sh
 
-echo "Mac config"
-source install/osx.sh
-
 echo "Dock config"
 source install/dock.sh
 
