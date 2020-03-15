@@ -17,13 +17,13 @@ brew upgrade
 brew install tig
 brew install dockutil
 brew install Schniz/tap/fnm
+brew install neovim
 
 ## Apps I use
 # Dev tools
 brew cask install iterm2
 brew cask install postman
 brew cask install visual-studio-code
-brew cask install gitkraken
 # Utility
 brew cask install 1password
 brew cask install dropbox

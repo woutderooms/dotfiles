@@ -19,6 +19,9 @@ else
 fi;
 unset doIt;
 
+# Link vimrc
+ln -sf $PWD/.vimrc ~/.config/nvim/init.vim
+
 # Link VSCode settings
 ln -sf $PWD/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ln -sf $PWD/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json

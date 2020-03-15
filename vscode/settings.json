@@ -12,11 +12,13 @@
   "[javascript]": {
     "editor.formatOnSave": true
   },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
   "editor.renderControlCharacters": false,
   "editor.renderWhitespace": "all",
   "editor.scrollBeyondLastLine": false,
   "editor.tabSize": 2,
-  "eslint.autoFixOnSave": true,
   "extensions.ignoreRecommendations": false,
   "javascript.format.enable": false,
   "javascript.suggestionActions.enabled": false,
@@ -28,6 +30,14 @@
   "window.restoreWindows": "all",
   "window.title": "${rootName}",
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "Monokai",
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.colorTheme": "Snazzy Operator",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
