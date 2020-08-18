@@ -30,7 +30,6 @@
   "window.restoreWindows": "all",
   "window.title": "${rootName}",
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "Snazzy Operator",
   "workbench.startupEditor": "newUntitledFile",
   "editor.gotoLocation.multipleDeclarations": "goto",
   "editor.gotoLocation.multipleDefinitions": "goto",
@@ -40,4 +39,7 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
