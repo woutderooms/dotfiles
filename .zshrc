@@ -1,3 +1,4 @@
+export ZSH_DISABLE_COMPFIX=true
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME=""
 plugins=(git per-directory-history zsh-syntax-highlighting)

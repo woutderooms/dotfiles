@@ -16,9 +16,17 @@ alias update="sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup
 
 # Source .zshrc, which updates all commands
 alias s="source ~/.zshrc"
+alias vim="nvim"
+alias vi="nvim"
 
 # Add dock spaces
 alias dockspacer="defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock"
 
 # Remove local branches
 alias git-remove-untracked='git fetch --prune && git branch -r | awk "{print \$1}" | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk "{print \$1}" | xargs git branch -D'
+
+# Enable npm proxy
+alias npm-proxy-enable="mv ~/.npmrc_disabled ~/.npmrc"
+
+#disable npm proxy
+alias npm-proxy-disable="mv ~/.npmrc ~/.npmrc_disabled"
