@@ -6,7 +6,7 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/.aliases
 # fnm
-eval "$(fnm env --multi)"
+eval "$(fnm env)"
 
 fpath+=("$HOME/.zsh/pure")
 autoload -U promptinit; promptinit
