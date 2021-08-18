@@ -48,5 +48,6 @@
   "todo-tree.tree.showScanModeButton": false,
   "angular.enable-experimental-ivy-prompt": false,
   "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
+  "security.workspace.trust.untrustedFiles": "open"
 }

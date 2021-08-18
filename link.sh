@@ -20,6 +20,7 @@ fi;
 unset doIt;
 
 # Link vimrc
+mkdir -p ~/.config/nvim
 ln -sf $PWD/.vimrc ~/.config/nvim/init.vim
 
 # Link VSCode settings

@@ -43,3 +43,11 @@ echo '
 	path = ~/projects/work/napoleon-games/.gitconfig' >> ~/.gitconfig
 
 cd ~
+
+## Set some good git defaults
+git config --global pull.rebase true
+git config --global fetch.prune true
+git config --global diff.colorMoved zebra
+git config --global rebase.autostash true
+git config --global rebase.autoSquash true
+git config --global rerere.enabled true

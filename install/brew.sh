@@ -21,19 +21,19 @@ brew install neovim
 
 ## Apps I use
 # Dev tools
-brew cask install iterm2
-brew cask install postman
-brew cask install visual-studio-code
-brew cask install docker
+brew install --cask iterm2
+brew install --cask postman
+brew install --cask visual-studio-code
+brew install --cask docker
 # Utility
-brew cask install 1password
-brew cask install dropbox
-brew cask install spectacle
+brew install --cask 1password
+brew install --cask dropbox
+brew install --cask rectangle
 # Browsers
-brew cask install google-chrome
+brew install --cask google-chrome
 # Communication
-brew cask install slack
-brew cask install whatsapp
+brew install --cask slack
+brew install --cask whatsapp
 
 # Remove outdated versions from the cellar.
 brew cleanup
