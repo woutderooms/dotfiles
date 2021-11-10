@@ -13,7 +13,8 @@
     "editor.formatOnSave": true
   },
   "[typescript]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.renderControlCharacters": false,
   "editor.renderWhitespace": "all",
@@ -49,5 +50,6 @@
   "angular.enable-experimental-ivy-prompt": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.guides.bracketPairs": true
 }
