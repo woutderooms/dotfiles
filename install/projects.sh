@@ -42,6 +42,7 @@ echo '
 [includeIf "gitdir:~/projects/work/napoleon-games/"]
 	path = ~/projects/work/napoleon-games/.gitconfig' >> ~/.gitconfig
 
+# We should return to the previous path first!!!!
 cd ~
 
 ## Set some good git defaults

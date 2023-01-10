@@ -51,5 +51,9 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "security.workspace.trust.untrustedFiles": "open",
-  "editor.guides.bracketPairs": true
+  "editor.guides.bracketPairs": true,
+  "workbench.editor.untitled.hint": "hidden",
+  "editor.snippetSuggestions": "none",
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.showExpandedAbbreviation": "never"
 }

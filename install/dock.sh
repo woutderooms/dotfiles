@@ -7,10 +7,10 @@ defaults write com.apple.dock minimize-to-application -bool true
 defaults write com.apple.dock show-recents -bool false
 
 # Move to dock left side
-defaults write com.apple.Dock orientation -string left
+#defaults write com.apple.Dock orientation -string left
 
 # Make dock smaller
-defaults write com.apple.dock tilesize -int 30
+#defaults write com.apple.dock tilesize -int 30
 
 #Show indicator lights for open applications in the Dock
 defaults write com.apple.dock show-process-indicators -bool true
@@ -39,10 +39,10 @@ dockutil --no-restart --add "/Applications/Visual Studio Code.app"
 dockutil --no-restart --add '' --type spacer --section apps
 dockutil --no-restart --add "/Applications/Microsoft Outlook.app"
 dockutil --no-restart --add '' --type spacer --section apps
-dockutil --no-restart --add "/Applications/Pages.app"
-dockutil --no-restart --add "/Applications/Numbers.app"
-dockutil --no-restart --add "/Applications/Keynote.app"
-dockutil --no-restart --add '' --type spacer --section apps
+#dockutil --no-restart --add "/Applications/Pages.app"
+#dockutil --no-restart --add "/Applications/Numbers.app"
+#dockutil --no-restart --add "/Applications/Keynote.app"
+#dockutil --no-restart --add '' --type spacer --section apps
 
 dockutil --add '~/Downloads' --view grid --display folder --allhomes
 
